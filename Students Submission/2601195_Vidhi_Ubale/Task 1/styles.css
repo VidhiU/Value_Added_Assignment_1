@@ -75,7 +75,6 @@ header {
     background-color: #5929c9;
     border-radius: 5px;
 }
-
 /* change link color when hovered */
 .nav-links a:hover {
     color: #5929c9;
@@ -91,7 +90,6 @@ header {
     border-radius: 15px;
     font-size: 18px;
 }
-
 /* change button color when hovered */
 .nav-button:hover {
     background-color: #4720a7;
