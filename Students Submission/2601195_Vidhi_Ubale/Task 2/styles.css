@@ -9,3 +9,81 @@ body {
     background-color: #f8f9fc;
     color: #171c3a;
 }
+/* sidebar layout */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #22214f;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* logo section */
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.sidebar-logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+.sidebar-logo h2 {
+    font-size: 30px;
+    color: white;
+}
+/* menu list */
+.sidebar-links {
+    list-style: none;
+}
+/* menu items */
+.sidebar-links li {
+    margin-bottom: 15px;
+}
+/* menu links */
+.sidebar-links a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+}
+/* menu images */
+.sidebar-links img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+/* highlight the current page */
+.sidebar-links a.active {
+    background-color: #6948d6;
+    color: white;
+}
+/* divider above logout */
+.logout {
+    margin-top: 25px;
+    border-top: 1px solid #514d85;
+    padding-top: 20px;
+}
+/* logout link */
+.logout a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: #e0def5;
+    padding: 12px 10px;
+    font-size: 16px;
+}
+/* logout image */
+.logout img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
