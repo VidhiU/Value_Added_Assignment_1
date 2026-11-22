@@ -79,13 +79,11 @@ header {
 .nav-links a:hover {
     color: #5929c9;
 }
-
 /* get started button */
 .nav-button {
     text-decoration: none;
     color: white;
     background-color: #5929c9;
-
     padding: 16px 25px;
     border-radius: 15px;
     font-size: 18px;
@@ -93,4 +91,35 @@ header {
 /* change button color when hovered */
 .nav-button:hover {
     background-color: #4720a7;
+}
+
+
+/* hero section */
+.hero {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 70px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* hero text */
+.hero-content {
+    max-width: 600px;
+}
+.hero-content h1 {
+    font-size: 64px;
+    line-height: 1.2;
+    color: #171c3a;
+    margin-bottom: 25px;
+}
+/* highlighting the job ready text */
+.hero-content h1 span {
+    color: #5929c9;
+}
+.hero-content p {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #454f68;
+    margin-bottom: 30px;
 }
