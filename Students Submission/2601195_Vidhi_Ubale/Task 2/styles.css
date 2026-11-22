@@ -357,3 +357,92 @@ body {
     font-size: 13px;
     font-weight: bolder;
 }
+/* tablet screens */
+@media (max-width: 900px) {
+    .stats-container {
+        flex-wrap: wrap;
+    }
+    .stat-card {
+        flex: 1 1 calc(50% - 20px);
+    }
+    .dashboard-panels {
+        flex-direction: column;
+    }
+    .welcome-image img {
+        width: 200px;
+    }
+}
+
+/* mobile screens */
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        min-width: 100%;
+        height: auto;
+    }
+    .sidebar-logo {
+        margin-bottom: 20px;
+    }
+    .sidebar-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .sidebar-links li {
+        margin-bottom: 5px;
+    }
+    .sidebar-links a {
+        padding: 8px;
+    }
+    .logout {
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    .topbar {
+        padding: 15px;
+    }
+    .topbar h1 {
+        font-size: 20px;
+    }
+    .topbar-right {
+        gap: 12px;
+    }
+    .welcome-banner {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 15px;
+    }
+    .welcome-text h2 {
+        font-size: 22px;
+    }
+    .welcome-text p {
+        font-size: 14px;
+    }
+    .welcome-image img {
+        width: 100%;
+        height: 140px;
+    }
+    .stats-container {
+        margin: 15px;
+        gap: 10px;
+    }
+    .stat-card {
+        flex: 1 1 100%;
+    }
+    .dashboard-panels {
+        margin: 15px;
+    }
+    .panel {
+        padding: 18px;
+    }
+    .course-item,
+    .assignment-item {
+        flex-wrap: wrap;
+    }
+    .progress-bar {
+        width: 100px;
+    }
+}
