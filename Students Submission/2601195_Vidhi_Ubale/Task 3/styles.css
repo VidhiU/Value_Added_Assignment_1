@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navbar {
     display: flex;
@@ -17,9 +18,10 @@
 .logo img {
     width: 40px;
     height: 40px;
+   transform: rotate(15deg);
 }
 .logo h2 {
-    color: #1e3a5f;
+    color: black;
     margin-left: 10px;
 }
 .nav-links {
@@ -31,11 +33,13 @@
     color: #333;
 }
 .nav-links .active {
-    color: #1e3a5f;
+    color: #630194;
+    border-bottom: 2px solid  #630194;
+    padding-bottom: 5px;
 }
 .book-btn {
     text-decoration: none;
-    background-color: #1e3a5f;
+    background-color: #630194;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
