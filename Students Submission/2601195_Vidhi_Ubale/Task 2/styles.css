@@ -108,7 +108,7 @@ body {
 /* dashboard heading */
 .topbar h1 {
     font-size: 24px;
-    color: #22214f;
+    color: black;
     font-weight: bolder;
 }
 
@@ -162,4 +162,44 @@ body {
     transform: rotate(45deg);
     margin-left: 10px;
     margin-top: -4px;
+}
+
+/* welcome banner */
+.welcome-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee9ff;
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+/* welcome text */
+.welcome-text {
+    flex: 1;
+}
+
+/* welcome heading */
+.welcome-text h2 {
+    font-size: 28px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* welcome message */
+.welcome-text p {
+    font-size: 16px;
+    color: #555577;
+    line-height: 1.6;
+    max-width: 500px;
+    font-weight: 600;
+}
+
+/* welcome illustration */
+.welcome-image img {
+    width: 300px;
+    height: 180px;
+    object-fit: contain;
 }
