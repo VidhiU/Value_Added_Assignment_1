@@ -9,3 +9,68 @@ body {
     color: #111827;
     background-color: #ffffff;
 }
+
+
+/* navbar */
+header {
+    border-bottom: 1px solid #eee;
+}
+
+.navbar {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 20px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* logo and website name */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 55px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.logo h2 {
+    font-size: 26px;
+    color: #171c3a;
+}
+
+/* links in the navbar */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #454f68;
+    font-size: 18px;
+}
+
+/* show the active page */
+.nav-links .active {
+    color: #5525c9;
+}
+
+/* get started button */
+.nav-button {
+    text-decoration: none;
+    color: white;
+    background-color: #5929c9;
+
+    padding: 16px 25px;
+    border-radius: 15px;
+    font-size: 18px;
+}
