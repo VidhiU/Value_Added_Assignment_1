@@ -33,7 +33,7 @@ body {
     object-fit: contain;
 }
 .sidebar-logo h2 {
-    font-size: 30px;
+    font-size: 23px;
     color: white;
 }
 /* menu list */
@@ -100,9 +100,8 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 20px 25px;
-    border-radius: 12px;
-    margin-bottom: 25px;
+    padding: 15px 20px;
+    border-bottom: 2px solid #e5ddff;
 }
 
 /* dashboard heading */
@@ -202,4 +201,60 @@ body {
     width: 300px;
     height: 180px;
     object-fit: contain;
+}
+/* statistics cards layout */
+.stats-container {
+    display: flex;
+    gap: 20px;
+    margin: 25px;
+}
+
+/* individual statistic card */
+.stat-card {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* statistic card images */
+.stat-card img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+/* statistic numbers */
+.stat-card h3 {
+    font-size: 24px;
+    color: #171c3a;
+    margin-bottom: 5px;
+}
+
+/* statistic labels */
+.stat-card p {
+    font-size: 15px;
+    color: #454b68;
+}
+
+/* courses card color */
+.courses-card {
+    background-color: #e9e3ff;
+}
+
+/* assignments card color */
+.assignments-card {
+    background-color: #dff7e9;
+}
+
+/* progress card color */
+.progress-card {
+    background-color: #fff3d9;
+}
+
+/* due card color */
+.due-card {
+    background-color: #ffe3e9;
 }
