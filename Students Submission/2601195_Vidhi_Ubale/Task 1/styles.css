@@ -123,3 +123,38 @@ header {
     color: #454f68;
     margin-bottom: 30px;
 }
+/* hero buttons */
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* main button */
+.start-button {
+    text-decoration: none;
+    color: white;
+    background-color: #5929c9;
+
+    padding: 18px 28px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+/* second button */
+.view-button {
+    text-decoration: none;
+    color: #171c3a;
+    background-color: white;
+
+    padding: 18px 28px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 18px;
+}
+/* change button color when hovered */
+.start-button:hover {
+    background-color: #4720a7;
+}
+.view-button:hover {
+    background-color: #f5f5f5;
+}
